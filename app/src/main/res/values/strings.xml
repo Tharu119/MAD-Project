@@ -1,0 +1,203 @@
+<resources>
+
+    <string name="image">image</string>
+    <string name="button">button</string>
+    <string name="icon">icon</string>
+    <string name="nav_Offers">Offers</string>
+    <string name="nav_orderHis">Order History</string>
+    <string name="nav_Favourites">Favourites</string>
+    <string name="nav_contactUs">Contact Us</string>
+    <string name="nav_TermsAnd_condition">Terms &amp; Condition</string>
+    <string name="nav_like_Facebook">Like us on Facebook</string>
+    <string name="nav_about">About</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="cart">Cart</string>
+    <string name="favourite">Favourite</string>
+    <string name="fav_title">Favourite</string>
+    <string name="app_name">Pizza Express</string>
+    <string name="home_title">Category</string>
+    <string name="category_huawei">Huawei</string>
+    <string name="category_samsun">Samsung</string>
+    <string name="category_mi">Xiaomi</string>
+    <string name="OrdHis_title">Order History</string>
+    <string name="OrdHis_backIconTxt">back</string>
+    <string name="OrdHiss_orderNo">Order Num#</string>
+    <string name="OrdHis_date">Date</string>
+    <string name="OrdHi_Address">Address</string>
+    <string name="OrdHis_Items">Items</string>
+    <string name="pro_title">My Profile</string>
+    <string name="pro_save">Save Changes</string>
+    <string name="acc_edit">edit details</string>
+    <string name="acc_points">Loyalty Points</string>
+    <string name="cat_a_apple2">"Apple iPhone 12 Pro Max 512GB Rs. 330,000 "</string>
+    <string name="cat_a_apple3">"Apple iPhone 12 256GB Rs. 240,000 "</string>
+    <string name="cat_a_apple4">Apple iPhone SE (2020) 256GB; Rs. 192,000</string>
+
+    <string name="cat_a_apple5">My Profile</string>
+    <string name="test">test123</string>
+
+
+    <string name="text1">Review Your Oder</string>
+    <string name="text2">PLEASE ENTER THE DETAILS BELOW TO COMPLETE YOUR ODER</string>
+    <string name="text3">Your Delivery Address</string>
+    <string name="text4">Flat/House No*</string>
+    <string name="text5">ITEMS YOU HAVE SELECTED</string>
+    <string name="text6">samsung j7</string>
+    <string name="text8">FEEDBACK</string>
+    <string-array name="inquiry">
+        <item>Contact</item>
+        <item>Oder Inquiry</item>
+        <item>Oder Inquiry</item>
+        <item>complaint</item>
+    </string-array>
+    <string name="text9">If You Can Please Rate Us For Our Improvements</string>
+    <string name="text10">How was our service</string>
+    <string name="text11">What about think OnClick A</string>
+    <string name="text12">How was our delivery</string>
+
+    <string name="apple1_name">Apple iPhone 12 mini</string>
+    <string name="apple2_name">"Apple iPhone 12 Pro Max "</string>
+    <string name="apple3_name">Apple iPhone 12</string>
+    <string name="apple4_name">Apple iPhone SE</string>
+    <string name="apple1_price">Rs. 234,900</string>
+    <string name="apple2_price">Rs. 330,000</string>
+    <string name="apple3_price">Rs. 240,000</string>
+    <string name="apple4_price">Rs. 192,000</string>
+    <string name="colour">Colour</string>
+    <string name="plus">+</string>
+    <string name="_00">01</string>
+    <string name="minus">-</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="description">Description</string>
+    <string name="apple1_descr">Technology:GSM / CDMA ,1 Year Apple Care Warranty. 4GB RAM</string>
+    <string name="apple2_descr">Technology:GSM / CDMA ,2 Year Apple Care Warranty. 4GB RAM</string>
+    <string name="apple3_descr">Technology:GSM / CDMA ,1 Year Apple Care Warranty. 4GB RAM</string>
+    <string name="apple4_descr">Technology:GSM / CDMA ,1 Year Apple Care Warranty. 4GB RAM</string>
+
+
+    <string name="cart_title">My Cart</string>
+
+    <string name="cart1minus">-</string>
+    <string name="cart1qty">1</string>
+    <string name="cart1plus">+</string>
+    <string name="cart1_price">Rs. 46000.00</string>
+
+    <string name="cart2_price">Rs. 560000.00</string>
+
+    <string name="sub_total_txt">Sub-Total</string>
+    <string name="sub_total_amt">606000.00</string>
+    <string name="delivery">Delivery Fee</string>
+    <string name="delivery_amt">Standard</string>
+    <string name="total_txt">Total Price</string>
+    <string name="total_amt">606500.00</string>
+
+
+    <string name="huawei_1">"Huawei nova 7i 8GB RAM \nRs. 44,000 "</string>
+    <string name="huawei_2">"Huawei nova 7 SE Rs. 59,000 "</string>
+    <string name="huawei_3">Huawei P40 Pro 256GB\n Rs. 169,900</string>
+    <string name="huawei_4">Huawei Y5p\nRs. 17,200</string>
+    <string name="huawei_5">Huawei Y7 (2019)\nRs. 32,000</string>
+    <string name="huawei_6">Huawei Y7a 128GB \nRs. 33,600</string>
+    <string name="about_title">About Us</string>
+    <string name="about_text">"Welcome to OneClick, your number one source for all things product, ie: phones and Laptops. We're dedicated to giving you the very best of product, with a focus on three characteristics, ie: dependability, customer service, and uniqueness. Founded in 2018 by Mr. Senarath, OneClick has come a long way from its beginnings.  We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.  Sincerely, Mr. Senarath  (Founder of OneClick) "</string>
+    <string name="huawei1_name">Huawei Y7</string>
+    <string name="huawei1_descr">" 1 Year Company Warranty,64GB RAM"</string>
+    <string name="huawei1_price">RS.57000</string>
+
+
+    <string name="app_name2">MAD_p1</string>
+
+    <string name="login">Login</string>
+
+    <string name="user_name">UserName</string>
+
+    <string name="pw">Password</string>
+
+    <string name="forgot_pw">FORGOT PASSWORD?</string>
+
+    <string name="become_member">BECOME A MEMBER</string>
+
+    <string name="first_name">First Name *</string>
+
+    <string name="last_name">Last Name *</string>
+
+    <string name="phone_number">Phone Number *</string>
+
+    <string name="email">Email</string>
+
+    <string name="password">Password *</string>
+
+    <string name="confirm_password">Confirm Password *</string>
+
+    <string name="value_offers">Everyday Value Offers</string>
+
+    <string name="msg1">Apple i phone 6s Starting from Rs.65000/-</string>
+    <string name="msg1_des">Apple 12pro max+ 2 trempet + 1back cover</string>
+    <string name="msg2">Huawei Y7 Special Price 45000/-</string>
+
+    <string name="msg3">Smsung j7 Special Price 39000/-</string>
+
+    <string name="option1">1ST OPTION \n\n *shop samsung galaxy j8</string>
+    <string name="option2">2ND OPTION \n\n *Buy apple iphone 12pro max 2 phone</string>
+    <string name="option3">3RD OPTION \n\n *Minimun buy Rs.100000 for mi phone</string>
+    <string name="s_descrip">6GB RAM, 128 ROM, super allowed display, 1yr worrenty.</string>
+    <string name="cat_m_mi2">Xiaomi Redmi 9A\n Rs. 19,950</string>
+    <string name="cat_mi6">Xiaomi Redmi Note 9S 128GB\n Rs. 46,950</string>
+    <string name="cat_m_mi1">"Xiaomi Poco M3 128GB\n Rs. 32,950 "</string>
+    <string name="mi_des1">1 Year Company Warranty,USB Type-C ,</string>
+    <string name="cat_m_mi5">"Xiaomi Redmi 9T\nRs. 31,950 "</string>
+    <string name="cat_mii3">Xiaomi Redmi 9A \nRs. 19,950</string>
+    <string name="cat_m_mi4">"Xiaomi Redmi 9C 64GB\nRs. 22,600 "</string>
+    <string name="cat_mi3">"Xiaomi Poco X3 NFC 128GB \nRs. 52,000 "</string>
+    <string name="cat_m_mi3">Xiaomi Redmi Note 9 Pro 128GB\nRs. 109,900</string>
+    <string name="cat_mi7">"Xiaomi Poco X3 NFC 128GB\nRs. 52,000 "</string>
+    <string name="cat_m_mi6">Xiaomi Mi Note 10 Lite 8GB RAM 128GB\nRs. 114,900</string>
+    <string name="cat_mi8">Xiaomi Redmi Note 9 Pro 128GB</string>
+    <string name="milk_shakes_300ml">Milk Shakes (300ml)</string>
+    <string name="chocolate_melt_lava_cake">Chocolate Melt Lava Cake</string>
+    <string name="_3rd_option">3RD OPTION</string>
+    <string name="profile">Profile</string>
+    <string name="white">White</string>
+    <string name="red">Red</string>
+    <string name="aboutt_text">################################</string>
+    <string name="category_apple">Apple</string>
+    <string name="cat_a_apple1">Apple iPhone 12 mini 256GB Rs. 234,900</string>
+    <string name="pink">Pink</string>
+    <string name="xiomi1_name">Xiaomi Poco M3</string>
+    <string name="xiaomi2_name">Xiaomi Redmi 9A</string>
+    <string name="xiaomi3_name">Xiaomi Poco X3</string>
+    <string name="xiaomi4_name">Xiaomi Redmi 9C</string>
+    <string name="xiaomi5_name">Xiaomi Redmi 9T</string>
+    <string name="xiaomi6_name">Redim 9T</string>
+    <string name="samsung1_name">Galaxy</string>
+    <string name="cat_sam_1">"Samsung Galaxy A52 8GB RAM Rs. 67,950 "</string>
+    <string name="cat_sam_2">"Samsung Galaxy A12 64GB Rs. 30,900 "</string>
+    <string name="cat_sam_3">"Samsung Galaxy A72 Rs. 76,000 "</string>
+    <string name="cat_sam_4">"Samsung Galaxy M02 3GB RAM Rs. 19,500 "</string>
+    <string name="cat_sam_5">"Samsung Galaxy M02s 64GB Rs. 25,600 "</string>
+    <string name="cat_sam_6">Samsung Galaxy S21 Rs. 166,900</string>
+    <string name="sam2_name">"Samsung Galaxy A12 "</string>
+    <string name="sam3_name">Samsung Galaxy A72</string>
+    <string name="sam4_name">Samsung Galaxy M02</string>
+    <string name="sam5_name">Samsung Galaxy M02s</string>
+    <string name="sam6_name">Samsung Galaxy S21</string>
+    <string name="sam_descr">" 1 Year Company Warranty, Ultra 5G 256GB is Also Known as SM-G998B .Dual Sim LTE 4G 256 GB 12 GB RAM 5G"</string>
+    <string name="sam_blue">Blue</string>
+    <string name="sam_green">Green</string>
+    <string name="sam_yellomix">Yello Mix</string>
+    <string name="sam_white">White</string>
+    <string name="sam_apple_green">Apple Green</string>
+    <string name="sam_pink">Pink</string>
+    <string name="huwa_red">Red</string>
+    <string name="huaw_white">White</string>
+    <string name="huaw_green" />
+    <string name="huaw_pink" />
+    <string name="cart1">Huawei nova 7i</string>
+    <string name="cart2">Samsung J7</string>
+    <string name="cart1size">phone</string>
+    <string name="checkout_btn">BUY</string>
+    <string name="btn10">BUY</string>
+    <string name="text7">###################</string>
+
+</resources>

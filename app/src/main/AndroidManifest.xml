@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madoneclick">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/one_click"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/one_click"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".shipping"></activity>
+        <activity android:name=".payment_method" />
+        <activity android:name=".Sam_Mobile_6" />
+        <activity android:name=".Sam_Mobile_5" />
+        <activity android:name=".Sam_Mobile_4" />
+        <activity android:name=".Sam_Mobile_3" />
+        <activity android:name=".Sam_Mobile_2" />
+        <activity android:name=".Sam_Mobile_1" />
+        <activity android:name=".Huawei6_Mobile" />
+        <activity android:name=".Huawei5_Mobile" />
+        <activity android:name=".Huawei4_Mobile" />
+        <activity android:name=".Huawei3_Mobile" />
+        <activity android:name=".Huawei2_Mobile" />
+        <activity android:name=".DialogQuantityActivity" />
+        <activity android:name=".Apple4__se" />
+        <activity android:name=".Apple3_12" />
+        <activity android:name=".Apple2_12ProMax" />
+        <activity android:name=".Apple1_12mini" />
+        <activity android:name=".Favourites" />
+        <activity android:name=".CategoryApple" />
+        <activity android:name=".Account" />
+        <activity android:name=".MyProfile" />
+        <activity android:name=".OrderHistory" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyCart" />
+        <activity android:name=".CategoryHuawei" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Huawei1_nova7i" />
+        <activity android:name=".OrderReview" />
+        <activity android:name=".OrderDelivery" />
+        <activity android:name=".SelectedItems" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".RateUs" />
+        <activity android:name=".CategorySAMSUNG" />
+        <activity android:name=".ValueOffers" />
+        <activity android:name=".Login" />
+        <activity android:name=".CategoryMi" />
+        <activity android:name=".Register" />
+        <activity android:name=".Displayed_Option_list" />
+        <activity android:name=".Mi6_Red_Note" />
+        <activity android:name=".Mi5_redmi_9T" />
+        <activity android:name=".Mi4_redmi9" />
+        <activity android:name=".Mi3_pco_x3" />
+        <activity android:name=".Mi2_red_9" />
+        <activity android:name=".Mi1_PcoM" />
+        <activity android:name=".Offer3Options" />
+        <activity android:name=".Offer2Options" />
+        <activity android:name=".Offer1Options" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

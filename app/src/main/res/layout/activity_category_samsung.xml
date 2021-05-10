@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CategorySAMSUNG">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#00FAF4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/OrdHis_backIconTxt"
+        android:src="@drawable/one_click_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="410dp"
+        android:layout_height="529dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleImage">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="15dp"
+            android:paddingTop="5dp"
+            app:alignmentMode="alignMargins"
+            app:columnCount="2"
+            app:rowCount="3"
+            tools:ignore="RtlSymmetry">
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/sam1"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imagesamsung1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/image"
+                        android:scaleX="0.9"
+                        android:scaleY="0.8"
+                        android:src="@drawable/samsung1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/cat_sam_1"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/sam_2"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="15dp"
+                android:clickable="true"
+                app:cardElevation="10dp"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <ImageView
+                        android:id="@+id/imagesamsung2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/image"
+                        android:scaleX="0.9"
+                        android:scaleY="0.8"
+                        android:src="@drawable/samsung2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/cat_sam_2"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/sam_3"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <ImageView
+                        android:id="@+id/imagesamsung3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/image"
+                        android:scaleX="0.9"
+                        android:scaleY="0.8"
+                        android:src="@drawable/samsung3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/cat_sam_3"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/sam_4"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp"
+                android:clickable="true"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <ImageView
+                        android:id="@+id/imagesamsung4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/image"
+                        android:scaleX="0.9"
+                        android:scaleY="0.8"
+                        android:src="@drawable/samsung4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/cat_sam_4"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/sam_5"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp"
+                android:clickable="true"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="161dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imagesamsung5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/image"
+                        android:scaleX="0.9"
+                        android:scaleY="0.8"
+                        android:src="@drawable/samsung5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/cat_sam_5"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/sam_6"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp"
+                android:clickable="true"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <ImageView
+                        android:id="@+id/imagesamsung6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/image"
+                        android:scaleX="0.9"
+                        android:scaleY="0.8"
+                        android:src="@drawable/samsung6" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/cat_sam_6"
+                        android:textAlignment="center"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/imageMi5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/image"
+                android:scaleX="0.9"
+                android:scaleY="0.8"
+                android:src="@drawable/applee1"
+                app:layout_column="0"
+                app:layout_row="0" />
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/botomRelativeLay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+
+            android:id="@+id/botmNavBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F5F5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/menu" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
